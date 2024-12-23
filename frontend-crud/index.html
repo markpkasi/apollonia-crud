@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Management</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Employee Management</h1>
+
+    <div>
+        <h2>Create Employee</h2>
+        <form id="employee-form">
+            <input type="text" id="name" placeholder="Name" required>
+            <input type="text" id="role" placeholder="Role" required>
+            <input type="text" id="department" placeholder="Department" required>
+            <button type="submit">Add Employee</button>
+        </form>
+    </div>
+
+    <div>
+        <h2>Employees List</h2>
+        <ul id="employee-list"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
